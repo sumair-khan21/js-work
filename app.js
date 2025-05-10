@@ -140,7 +140,7 @@
 
 
 // let words = ['apple','banana','grapes','orange','peach']
-
+    
 // let newWords = []
 
 // for(let i = 0; i < words.length; i++){
@@ -164,21 +164,21 @@
 
 
 
-let str = `Video provides a powerful way to help you prove your point. When you click Online Video, you can paste in the embed code for the video you want to add. You can also type a keyword to search online for the video that best fits your document.
-`
-let find = "video"
-let counter = 0;
-let match = false;
+// let str = `Video provides a powerful way to help you prove your point. When you click Online Video, you can paste in the embed code for the video you want to add. You can also type a keyword to search online for the video that best fits your document.
+// `
+// let find = "video"
+// let counter = 0;
+// let match = false;
 
-for(let i = 0; i < str.length; i++){
-    // console.log(str.slice(i,i+3));
-    if(!match && find == str.slice(i,i+find.length).toLowerCase()){
-        ++counter;   
-        match = true
-        console.log("Match");
-    }
-}
-console.log(counter);
+// for(let i = 0; i < str.length; i++){
+//     // console.log(str.slice(i,i+3));
+//     if(!match && find == str.slice(i,i+find.length).toLowerCase()){
+//         ++counter;   
+//         match = true
+//         console.log("Match");
+//     }
+// }
+// console.log(counter);
 
 
 
@@ -194,6 +194,64 @@ console.log(counter);
 //     console.log(i);
 //     i++;
 // } while (i < 10);
+
+
+
+
+
+
+// ===============================================================================================
+
+// USER INPUT TO CAPITALIZE
+
+
+// function capitalize(){
+//     let empArr = []
+//     while(true){
+//         let userInput = prompt("Enter your Sentence:  || type 'done' to finish sentence")
+//         if(userInput.toLowerCase() == 'done'){
+//             let sentence = empArr.join(" ");
+//             alert("Your sentence is:\n" + sentence)
+//             alert("Thank for using me!")
+//             break;
+//         }else{
+//             let arr = userInput.split(" ");
+//             for(let i = 0; i < arr.length; i++){
+//                 arr[i] = arr[i].charAt(0).toUpperCase() + arr[i].slice(1).toLowerCase()
+//                 empArr.push(arr[i])
+//             }
+            
+//         }
+//     }    
+    
+// }
+
+
+
+// ================================================================================
+
+
+// function passwordAttempt(){
+//     let password = 1234;
+//     let attempt = 0;
+//     let maxAttempts = 3;
+//     let userInput;
+
+//     while(userInput != password && attempt < maxAttempts){
+//         userInput = +prompt("Enter your password: ")
+//         attempt++
+//       if(userInput == password){
+//         alert("User Login")
+//         break;
+//       }else if(attempt < maxAttempts){
+//        alert(`You have just ${maxAttempts - attempt} attempts left`)
+//       }else{
+//         alert("Your account is locked")
+//         break
+//       }
+//     }
+// }
+
 
 
 
